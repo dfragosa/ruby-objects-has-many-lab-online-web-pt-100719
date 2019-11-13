@@ -13,8 +13,7 @@ class Post
   def self.all 
     @@all
   end 
-  
-  
+
   def add_post(post)
     @posts << post
     posts.author = self
@@ -22,6 +21,7 @@ class Post
   
   def author_name (name = nil)
     self.author.name 
+    
   end 
   
 end 
